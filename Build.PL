@@ -10,5 +10,6 @@ Module::Build->new(
                    },
                    build_requires => {
                       'Test::More'               => '0.01',
+                      'DBD::mysql'               => '0.01',
                    },
                    )->create_build_script;

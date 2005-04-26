@@ -64,7 +64,7 @@ use CGI;
 use DBI;
 
 our @ISA = qw();
-our $VERSION = '1.02';
+our $VERSION = '1.03';
 
 # global settings, can be overridden for the whole class or for
 # individual instances.

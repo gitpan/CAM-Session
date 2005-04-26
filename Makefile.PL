@@ -7,7 +7,9 @@ WriteMakefile(
                  'CGI::Cookie'              => '1.0',
                  'DBI'                      => '1.0',
                  'Digest::MD5'              => '2.0',
+                 # Build depends:
                  'Test::More'               => '0.01',
+                 'DBD::mysql'               => '0.01',
               },
               'PL_FILES' => {},
               ($] >= 5.005 ?
